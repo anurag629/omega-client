@@ -6,7 +6,6 @@ export interface ManimScript {
   prompt: string;
   script: string;
   provider: 'gemini' | 'azure_openai';
-  script_path: string | null;
   output_path: string | null;
   output_url: string | null;
   status: 'pending' | 'completed' | 'failed';
